@@ -1,0 +1,4 @@
+open MySQL
+CREATE DATABASE student_management_system;
+CREATE USER 'student_management_system'@'localhost' identified by 'student_management_password';
+Grant All Privileges on *.* to 'student_management_system'@'localhost';
