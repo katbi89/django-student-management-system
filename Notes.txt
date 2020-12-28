@@ -11,3 +11,6 @@ Grant All Privileges on *.* to 'student_management_system'@'localhost';
         'PASSWORD': 'student_management_password',
         'HOST': 'localhost',
         'PORT': '3306'
+---------------------------------------------------------
+
+pip install mysqlclient
